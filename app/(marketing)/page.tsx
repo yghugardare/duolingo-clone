@@ -10,7 +10,6 @@ import {
   UserButton,
 } from "@clerk/nextjs";
 import { Loader } from "lucide-react";
-import { Sign } from "crypto";
 import Link from "next/link";
 
 export default function Home() {
