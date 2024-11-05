@@ -1,3 +1,4 @@
+
 import { redirect } from "next/navigation";
 import { FeedWrapper } from "@/components/feed-wrapper";
 import { StickyWrapper } from "@/components/sticky-wrapper";
@@ -39,6 +40,7 @@ const LearnPage = async () => {
               activeLesson={undefined}
               activeLessonPercentage={0}
             />
+        
           </div>
         ))}
       </FeedWrapper>

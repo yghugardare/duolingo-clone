@@ -55,12 +55,30 @@ const main = async () => {
         unitId: 1, //learn the basics of the hindi
         order: 1,
       },
-      //   {
-      //     id: 2,
-      //     title: "Verbs",
-      //     unitId: 1, //learn the basics of the hindi
-      //     order: 2,
-      //   }
+      {
+        id: 2,
+        title: "Verbs",
+        unitId: 1, //learn the basics of the hindi
+        order: 2,
+      },
+      {
+        id: 3,
+        title: "Adjectives",
+        unitId: 1, //learn the basics of the hindi
+        order: 3,
+      },
+      {
+        id: 4,
+        title: "Adverbs",
+        unitId: 1, //learn the basics of the hindi
+        order: 4,
+      },
+      {
+        id: 5,
+        title: "Prepositions",
+        unitId: 1, //learn the basics of the hindi
+        order: 5,
+      },
     ]);
     await db.insert(schema.challenges).values([
       {
@@ -88,7 +106,8 @@ const main = async () => {
         correct: false,
         text: "औरत",
         audioSrc: "/in_woman.mp3",
-      },{
+      },
+      {
         id: 3,
         challengeId: 1,
         imageSrc: "/robot.svg",
